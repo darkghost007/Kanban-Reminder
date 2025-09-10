@@ -1,3 +1,6 @@
+<img width="640" height="640" alt="Gemini_Generated_Image_d5cfidd5cfidd5cf 2" src="https://github.com/user-attachments/assets/34a2aee3-f8d9-4c9e-a938-c9a448b2b21e" />
+
+
 # KanbanReminders
 
 KanbanReminders bringt Apple Erinnerungen (EventKit) in drei Arbeitsmodi zusammen: als Kanban‑Boards, als kompakte Listen und in einer Kalenderansicht. Projekte gruppieren deine Boards, Drag & Drop macht das Sortieren schnell, Zuweisungen an Personen halten Verantwortlichkeiten klar – mit Undo/Redo und einer anpassbaren Oberfläche.

@@ -62,6 +62,14 @@ KanbanReminders bringt Apple Erinnerungen (EventKit) in drei Arbeitsmodi zusamme
 
 Proprietär – Alle Rechte vorbehalten. Der Quellcode ist nicht zur Weiterverwendung lizenziert. Die App ist aktuell über TestFlight verfügbar; eine Veröffentlichung im App Store ist geplant.
 
+## Geplante Funktionen
+
+- Cloudkit Sync für Zusammenarbeit
+- Gantt-Ansicht
+- In-App Reminder
+- Mitarbeiter- / Schichtplanung
+- Fork mit Nextcloud Decks als Backend
+
 ## Screenshots
 
 <p align="center">
@@ -78,3 +86,4 @@ Proprietär – Alle Rechte vorbehalten. Der Quellcode ist nicht zur Weiterverwe
   <img src="https://github.com/user-attachments/assets/99d1f1d0-7cbf-44ca-9b96-dc788663583c" alt="Bildschirmfoto 4" width="19%" />
   <img src="https://github.com/user-attachments/assets/78659bc8-fea6-443b-817a-0f7eecf40642" alt="Bildschirmfoto 5" width="19%" />
 </p>
+

@@ -65,16 +65,19 @@ KanbanReminders bringt Apple Erinnerungen (EventKit) in drei Arbeitsmodi zusamme
 
 ## Daten & Synchronisierung
 
-- Aufgaben/Boards: Apple Erinnerungen (EventKit), Synchronisierung über deine Accounts (z. B. iCloud)
-- Projektstruktur: Spezieller Erinnerungs‑Kalender „Projekt:Struktur“ zur portablen Ablage von Zuordnung/Reihenfolge
-- Personen & Einstellungen: Lokal via UserDefaults
-- Bilder: Lokal im App‑Dokumentenordner
+- Aufgaben/Boards: CloudKit (Private Database) pro Apple‑ID, automatische iCloud‑Synchronisierung auf all deinen Geräten; optionales Teilen/Kollaboration über CloudKit‑Freigaben (Shared Database).
+- Projektstruktur: Als CloudKit‑Records (z. B. Projekt, Board, Aufgabe, Reihenfolge/Zuordnung) gespeichert; vollständig portabel und geräteübergreifend; keine Abhängigkeit mehr von Apple Erinnerungen/Kalendern.
+- Personen & Einstellungen: Basis‑Einstellungen lokal (UserDefaults); konto‑/freigaberelevante Daten und Mitgliedschaften in CloudKit; Berechtigungen über CloudKit‑Sharing.
+- Bilder: In CloudKit als CKAsset synchronisiert (mit lokalem Cache für schnelle Anzeige); optional können Vorschaubilder lokal zwischengespeichert werden, Originale werden bei Bedarf aus iCloud geladen.
+
+Hinweise
+• Voraussetzungen: iCloud aktiviert, gleiche Apple‑ID auf den Geräten, Internetverbindung (offline nutzbar mit späterem Abgleich).
+• Datenschutz: CloudKit Private Database ist verschlüsselt (in Transit und at Rest); geteilte Inhalte werden nur mit expliziter Freigabe sichtbar.
 
 ## Datenschutz
 
-- Keine eigenen Server, keine Drittanbieter‑Tracker
 - Daten bleiben in deinen Apple‑Accounts oder lokal
-- Bilder/Avatare werden nur lokal gespeichert
+- Datenschutbedingungen Apple beachten
 
 ## Lizenz
 
@@ -87,8 +90,6 @@ Proprietär – Alle Rechte vorbehalten. Der Quellcode ist nicht zur Weiterverwe
 - In-App Reminder
 - Mitarbeiter- / Schichtplanung
 - Fork mit Nextcloud Decks als Backend
-
-## Screenshots
 
 
 
